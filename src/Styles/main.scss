@@ -1,0 +1,73 @@
+// main.scss
+
+// Fonts
+@import "@fontsource/roboto/100.css";
+@import "@fontsource/roboto/100-italic.css";
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/300-italic.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/400-italic.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/500-italic.css";
+@import "@fontsource/roboto/700.css";
+@import "@fontsource/roboto/700-italic.css";
+@import "@fontsource/roboto/900.css";
+@import "@fontsource/roboto/900-italic.css";
+
+// Functions
+@import "bootstrap/scss/functions";
+
+// Custom Variables
+@import "./variables.scss";
+
+// Variables
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+// COnfiguration
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/utilities";
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
+@import "./App.scss";
